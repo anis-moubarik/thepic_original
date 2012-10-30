@@ -1,0 +1,12 @@
+# Ignored files/folders
+_notes
+_notes/dwsync.xml
+upload
+dbinit.php
+scripts
+loader.gif
+accept.png
+uploadbtn.png
+assets/logode.psd
+dummy.html
+md5salt.php

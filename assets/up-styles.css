@@ -1,0 +1,386 @@
+
+/* RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+	margin: 0px 0px;
+	padding: 0px;
+	background-color: #191919;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MAIN STYLES */
+
+#top{
+	height:15px;
+	width:100%;
+	border-bottom-width: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #615554;
+}
+
+#top a{
+text-decoration:none;
+display:block;
+color:#615554;
+}
+
+#top li{
+	display:inline-block;
+	padding-left: 15px;	
+}
+
+#wrapper{
+}
+
+#header{
+	position: relative;
+	width: 300px;
+	height: 100px;
+	/*background-image: url(phlogo.png);*/
+	background-image: url(logo_1.png);
+	background-repeat: no-repeat;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+
+#upload{
+	width: 1000px;
+	margin: 0px auto;
+	background-color:#615554;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	padding-bottom: 40px;
+}
+
+#upload form{
+	padding-top: 5px;
+	padding-left: 90px;
+}
+
+#links {
+	margin: 0px auto;
+	padding-top: 40px;
+}
+
+#links a{
+	text-decoration: none;
+	color: #FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 15px;
+}
+
+#active{
+	background-color: #9c2542;
+}
+
+
+#links li:hover{
+	background-color: #9c2542;
+}
+
+#featuredImages{
+	width: 600px;
+	height: 80px;
+	margin: 0px auto;
+	margin-top: 10px;
+}
+
+#footer{
+	width: 500px;
+	height: 25px;
+	margin: 0px auto;
+	margin-top: 2px;
+}
+
+#footer p{
+	text-align: center;
+	font-size: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#loader {
+	padding-left: 25%;
+	font: bold 11px Arial, Helvetica, sans-serif;	
+}
+
+#rekist label{
+	color: #FFF;
+}
+
+#rekist p{
+	color: #FFF;
+	font-size: small;	
+}
+
+#register{
+	margin-left: -3px;
+}
+
+#usrname{
+	margin-left: 36px;	
+}
+
+#passwd{
+	margin-left: 37px;	
+}
+
+.register{
+	margin-left: 100px;
+	color: #191919;
+}
+
+.register a{
+	text-decoration:none;
+	color: #191919;
+}
+
+.register a:hover{
+	color: #fff;	
+}
+
+#colWrapper{
+	width: 100%;
+	padding-bottom: 40px;
+	overflow: hidden;
+}
+
+#leftCol{
+	width: 30%;
+	float: left;
+}
+
+#rightCol{
+	width: 70%;
+	margin: 0px auto;
+	float:left;
+}
+
+#error p{
+	padding-left: 80px;	
+	font-size: 13px;
+	color: #FFF;
+}
+
+#error a{
+	text-decoration: none;
+	color: #999;	
+}
+
+#error a:hover{
+	color: #000;	
+}
+
+#error span{
+	color: #f41438;	
+}
+
+#share links{
+	float: left;
+}
+
+#share form{
+	padding-left: 5px;	
+}
+
+#share label{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #e6e1e1;	
+}
+
+input[type="text"]{
+	width: 250px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	background-color: #2b2525;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: thin solid #000;
+	height: 25px;
+	font-size: 14px;
+	color: #cac7c7;
+}
+
+#social{
+	height: 32px;	
+}
+
+#social span{
+	padding-right: 32px;
+	padding-bottom: 16px;
+	height: 32px;
+	width: 32px;
+}
+
+#social ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	display: inline;	
+}
+
+#social ul, li{
+	padding-top: 2px;
+	float: left;
+	height: 32px;
+	margin: 0 7px;
+	cursor: pointer;
+}
+
+
+.twitter_custom {
+	background: url(sprite.png) scroll no-repeat -96px -50px transparent;
+	height: 32px;
+	width: 32px;
+}
+
+.twitter_custom:hover {
+	background: url(sprite.png) no-repeat scroll -96px -5px transparent;
+}
+
+.fb_custom{
+	background: url(sprite.png) no-repeat scroll -188px -50px transparent;
+	width: 32px;
+	height: 32px;
+}
+
+.fb_custom:hover{
+	background: url(sprite.png) no-repeat scroll -188px -5px transparent;
+}
+
+.reddit_custom{
+	background: url(sprite.png) no-repeat scroll -5px -150px transparent;	
+}
+
+.reddit_custom:hover{
+	background: url(sprite.png) no-repeat scroll -5px -105px transparent;	
+}
+
+.st_email_custom{
+	background: url(sprite.png) no-repeat scroll -141px -148px transparent;
+	padding-right: 32px;
+	padding-bottom: 16px;
+	text-decoration: none;
+}
+
+.st_email_custom:hover{
+	background: url(sprite.png) no-repeat scroll -141px -103px transparent;	
+	padding-right: 32px;
+	padding-bottom: 16px;
+}
+
+.button-medium{
+	border: none;	
+}
+
+input[type="submit"].button-medium{
+	width: 79px;
+	height: 33px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	font-family: arial, sans-serif;
+	background: transparent url(sprite.png) -5px -5px no-repeat;
+}
+
+input[type="submit"].button-medium:hover {
+	background: transparent url(sprite.png) -5px -36px no-repeat;
+}
+
+input[type="submit"].button-medium:active {
+	background: transparent url(sprite.png) -5px -69px no-repeat;
+}
+
+#linkies{
+	text-align: center;
+	padding: 0;
+}
+
+#linkies a{
+	font-family:Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+	font-size: 9px;
+	color: #615554;
+	text-decoration: none;
+}
+
+#linkies a:hover{
+	color: #FFF;	
+}
+
+#tos {
+	padding: 5px;	
+}
+
+#tos h1{
+	font-size: 14px;
+	color: #191919;
+}
+
+#tos h2{
+	font-size: 12px;	
+	color: #191919;
+}
+
+#tos p{
+	font-size: 12px;
+	color: #191919;	
+}
+
+#tos a {
+	color: #000;	
+}
+
+#tos a:hover{
+	color: #191919;	
+}
